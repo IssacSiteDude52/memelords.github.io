@@ -113,7 +113,7 @@ p.tdescription{
     margin: 0px;
     padding: 0px;
     z-index: -9999;
-    background: #50cda7 url('https://www.abc.net.au/news/image/6354838-3x2-940x627.jpg') no-repeat;
+    background: #50cda7 url('../img/back.png') no-repeat;
     background-position: center 0;
     overflow: hidden;
 
