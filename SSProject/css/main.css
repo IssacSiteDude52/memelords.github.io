@@ -92,12 +92,12 @@ display: none;
      text-align: center;
      display: inline-block;
      width: 100%;
-     max-width: 700px;
+     max-width: 1000px;
      margin: 10px;
      padding: 10px;
 }
 #buttons .wrapper {
-    width: 197px;
+    width: 300px;
     margin: 0 auto;
 }
 .contentt {
