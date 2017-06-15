@@ -108,6 +108,8 @@ display: none;
 .buttons {
      text-align: center;
      display: inline-block;
+     left: 50%;
+     top: 100%;
 }
 .contentt {
     top: 350px;
