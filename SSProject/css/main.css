@@ -94,7 +94,6 @@ display: none;
      width: 100%;
      max-width: 700px;
      margin: 10px;
-     border: 1px solid black;
      padding: 10px;
 }
 #toolbar .wrapper {
@@ -105,17 +104,4 @@ display: none;
     top: 175px;
     position: relative;
     left: 0px;
-}
-#myProgress {
-  width: 100%;
-  background-color: #ddd;
-}
-
-#myBar {
-  width: 10%;
-  height: 30px;
-  background-color: #4CAF50;
-  text-align: center;
-  line-height: 30px;
-  color: white;
 }
