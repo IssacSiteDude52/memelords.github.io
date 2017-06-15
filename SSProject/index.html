@@ -68,7 +68,9 @@ document.getElementById("b10").classList.remove("btn-warning");
 document.getElementById("b10").classList.add("btn-success");
 }
 </script>
-<div class="btn-group buttons text-center">
+<div class="buttons">
+  <div class="wrapper text-center">
+    <div class="btn-group">
   <!-- Trigger the modal with a button -->
   	<button type="button" class="btn-success btn-lg active" data-toggle="modal" data-target="#event1" onclick="set2()" id="b1">1</button>
 	<button type="button" class="btn-warning btn-lg disabled" data-toggle="modal" data-target="#event2" onclick="set3()" id="b2">2</button>
@@ -81,6 +83,8 @@ document.getElementById("b10").classList.add("btn-success");
 	<button type="button" class="btn-warning btn-lg disabled" data-toggle="modal" data-target="#event9" onclick="set10()" id="b9">9</button>
 	<button type="button" class="btn-warning btn-lg disabled" data-toggle="modal" data-target="#event10" id="b10">10</button>
 </div>
+	</div>
+		</div>
 <div id="myProgress">
   <div id="myBar">0%</div>
 </div>
