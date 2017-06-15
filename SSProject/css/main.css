@@ -108,4 +108,26 @@ display: none;
 .buttons {
      text-align: center;
      display: inline-block;
+    -webkit-animation-name: bmove;
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: bmove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes bmove {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes bmove {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
 }
