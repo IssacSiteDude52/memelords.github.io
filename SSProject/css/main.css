@@ -90,4 +90,6 @@ display: none;
 .headr {
      font-family: 'Holtwood One SC';
      display: inline-block;
+     text-align: center;
+     font-size: 70px
 }
