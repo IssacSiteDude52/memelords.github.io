@@ -105,3 +105,7 @@ display: none;
      text-align: center;
      font-size: 30px;
 }
+.buttons {
+     text-align: center;
+     display: inline-block;
+}
