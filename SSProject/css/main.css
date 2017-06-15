@@ -133,4 +133,6 @@ display: none;
 }
 .contentt {
     top: 500px;
+    position: relative;
+    left: 0px;
 }
