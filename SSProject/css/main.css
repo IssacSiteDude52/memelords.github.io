@@ -91,5 +91,17 @@ display: none;
      font-family: 'Holtwood One SC';
      display: inline-block;
      text-align: center;
-     font-size: 70px
+     font-size: 50px;
+}
+.subheadr {
+     font-family: 'World Of Water';
+     display: inline-block;
+     text-align: center;
+     font-size: 20px;
+}
+.eheadr {
+     font-family: 'The World Is Yours';
+     display: inline-block;
+     text-align: center;
+     font-size: 30px;
 }
