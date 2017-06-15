@@ -84,6 +84,7 @@ display: none;
      letter-spacing: 5px;
      font-size: 30px;
      color: white;
+     text-transform: uppercase;
 }
 .buttons {
      text-align: center;
