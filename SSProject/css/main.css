@@ -91,6 +91,15 @@ display: none;
 .buttons {
      text-align: center;
      display: inline-block;
+     width: 100%;
+     max-width: 700px;
+     margin: 10px;
+     border: 1px solid black;
+     padding: 10px;
+}
+#toolbar .wrapper {
+    width: 197px;
+    margin: 0 auto;
 }
 .contentt {
     top: 175px;
