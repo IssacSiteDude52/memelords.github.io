@@ -132,7 +132,6 @@ display: none;
     100% {left:0px; top:0px;}
 }
 .contentt {
-    top: 175px;
+    top: 70%;
     position: relative;
-    left: 0px;
 }
