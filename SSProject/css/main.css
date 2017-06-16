@@ -66,22 +66,22 @@ display: none;
 }
 .headr {
      font-family: 'Holtwood One SC';
-     display: inline-block;
-     text-align: center;
+     /*display: inline-block;
+     text-align: center;*/
      font-size: 50px;
      color: white;
 }
 .subheadr {
      font-family: 'Architects Daughter';
-     display: inline-block;
-     text-align: center;
+     /*display: inline-block;
+     text-align: center;*/
      font-size: 20px;
      color: white;
 }
 .eheadr {
      font-family: 'Anton';
-     display: inline-block;
-     text-align: center;
+     /*display: inline-block;
+     text-align: center;*/
      font-size: 30px;
      letter-spacing: 5px;
      font-size: 30px;
