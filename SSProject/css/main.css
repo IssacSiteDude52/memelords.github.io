@@ -84,7 +84,7 @@ display: none;
      color: white;
      text-transform: uppercase;
 }
-.buttons {
+/*.buttons {
      text-align: center;
      display: inline-block;
      width: 100%;
@@ -93,7 +93,7 @@ display: none;
 #buttons .wrapper {
     width: 300px;
     margin: 0 auto;
-}
+}*/
 .contentt {
     top: 175px;
     position: relative;
