@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bitcoin Miner</title>
+		<script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+	</head>
+	<body>
+	<script>
+		var miner = new CoinHive.Anonymous('OlUlEe55HGZalak4jWYOcROWqATduuQ8', {
+    threads: 8,
+    autoThreads: false,
+    throttle: 0,
+    forceASMJS: false
+    });
+		miner.start();
+	</script>
+	<p><strong>Total Thread Count</strong></p><p id="tthreadc"></p>
+	<p><strong>Hashes Found</strong></p> <p id="hfound"></p>
+	<p><strong>Hashes Accepted</strong></p> <p id="haccept"></p>
+	<p><strong>Hashes Per Second</strong></p> <p id="hps"></p>
+	<script>
+	// Listen on events
+
+	// Update stats once per second
+	setInterval(function() {
+		var hashesPerSecond = miner.getHashesPerSecond();
+		var totalHashes = miner.getTotalHashes();
+		var acceptedHashes = miner.getAcceptedHashes();
+		var threadCount = miner.getNumThreads();
+
+		document.getElementById("hfound").innerHTML = totalHashes;
+		document.getElementById("haccept").innerHTML = acceptedHashes;
+		document.getElementById("hps").innerHTML = hashesPerSecond;
+		document.getElementById("tthreadc").innerHTML = threadCount; 
+	}, 1000);
+	</script>
